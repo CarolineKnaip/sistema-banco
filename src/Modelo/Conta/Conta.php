@@ -1,5 +1,7 @@
 <?php
 
+namespace Work\Banco\Modelo\Conta;
+
 class Conta
 {
     private $titular;
