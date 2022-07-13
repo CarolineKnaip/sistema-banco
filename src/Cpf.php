@@ -1,6 +1,6 @@
 <?php
 
-class CPF
+class Cpf
 {
     private $numero;
 

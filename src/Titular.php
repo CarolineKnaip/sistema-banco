@@ -4,17 +4,18 @@ class Titular
 {
     private $cpf;
     private $nome;
+    private $endereco;
 
-    public function __construct(CPF $cpf, string $nome)
+    public function __construct(Cpf $cpf, string $nome, Endereco $endereco)
     {
-        $this->cpf = $cpf;
+        $this->Cpf = $cpf;
         $this->validaNomeTitular($nome);
         $this->nome = $nome;
     }
 
     public function recuperaCpf():string
     {
-        return $this->cpf->recuperaNumero();
+        return $this->Cpf->recuperaNumero();
     }
 
     public function recuperaNome():string
@@ -28,5 +29,10 @@ class Titular
             echo "Nome precisa ter pelo menos 5 caracteres";
             exit();
         }
+    }
+
+    public function recuperaEndereco(): Endereco
+    {
+        return $this->endereco;
     }
 }

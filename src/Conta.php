@@ -62,7 +62,7 @@ class Conta
 
     public function recuperaCpfTitular():string
     {
-        return $this->Cpf->recuperaCpf();
+        return $this->titular->recuperaCpf();
     }
     
     public static function recuperaNumeroDeContas(): int
