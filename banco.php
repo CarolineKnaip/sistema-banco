@@ -1,11 +1,5 @@
 <?php
 
-require_once 'src/Conta.php';
-require_once 'src/Titular.php';
-require_once 'src/Endereco.php';
-require_once 'src/Cpf.php';
-require_once 'src/Endereco.php';
-
 $endereco = new Endereco ('Petrópolis', 'Um bairro', 'minha rua', '71B');
 $vinicius = new Titular(new Cpf('123.456.789-10'), 'Vinicius Dias', $endereco);
 $primeiraConta = new Conta($vinicius);
