@@ -21,7 +21,7 @@ class Pessoa
 
     public function recuperaCpf():string
     {
-        return $this->Cpf->recuperaNumero();
+        return $this->cpf->recuperaNumero();
     }
         
     protected function validaNomeTitular(string $nomeTitular)

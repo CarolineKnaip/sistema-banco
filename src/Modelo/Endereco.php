@@ -2,8 +2,6 @@
 
 namespace Work\Banco\Modelo;
 
-use Work\Banco\Modelo\Pessoa;
-
 class Endereco
 {
     private string $cidade;
@@ -39,6 +37,5 @@ class Endereco
     {
         return $this->numero;
     }
-
 
 }
