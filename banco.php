@@ -1,10 +1,5 @@
 <?php
 
-use Work\Banco\Modelo\Conta\Titular;
-use Work\Banco\Modelo\Conta\Conta;
-use Work\Banco\Modelo\Cpf;
-use Work\Banco\Modelo\Endereco;
-
 $endereco = new Endereco ('Petrópolis', 'Um bairro', 'minha rua', '71B');
 $vinicius = new Titular(new Cpf('123.456.789-10'), 'Vinicius Dias', $endereco);
 $primeiraConta = new Conta($vinicius);
