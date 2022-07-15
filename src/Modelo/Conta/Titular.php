@@ -2,12 +2,13 @@
 
 namespace Work\Banco\Modelo\Conta;
 
+use Work\Banco\Modelo\Autenticavel;
 use Work\Banco\Modelo\Pessoa;
 use Work\Banco\Modelo\Cpf;
 use Work\Banco\Modelo\Endereco;
 
 
-class Titular extends Pessoa
+class Titular extends Pessoa implements Autenticavel
 {
     private $endereco;
 
@@ -20,5 +21,10 @@ class Titular extends Pessoa
     public function recuperaEndereco(): Endereco
     {
         return $this->endereco;
+    }
+
+    public function podeAutenticar(string $senha): bool
+    {
+        return $senha === '1111';
     }
 }

@@ -8,8 +8,6 @@ abstract class Conta
     protected float $saldo;
     private static int $numeroDeContas = 0;
     
-    // tipo 1 == corrente tipo 2 = poupança
-
     public function __construct(Titular $titular)
     {
         $this->titular = $titular;
