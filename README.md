@@ -19,5 +19,16 @@ Entrar no diretório sistema-banco
 
 Digitar: php banco.php
 
+autenticacao.php
+
+autoload.php
+
+banco.php
+
+bonificacoes.php
+
+enderecos.php
+
+teste-saque.php
 
 :)
