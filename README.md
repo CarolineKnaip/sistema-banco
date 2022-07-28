@@ -11,6 +11,7 @@ Dentre as funcionalidades é possivel
 * Depoistar 
 * Sacar
 * Transferir
+* Tratamento de erro
 
 Para executar é necessário PHP 8.0
 
