@@ -11,6 +11,7 @@ Dentre as funcionalidades é possivel
 * Depoistar 
 * Sacar
 * Transferir
+* Tratamento de erro
 
 Para executar é necessário PHP 8.0
 
@@ -19,5 +20,16 @@ Entrar no diretório sistema-banco
 
 Digitar: php banco.php
 
+autenticacao.php
+
+autoload.php
+
+banco.php
+
+bonificacoes.php
+
+enderecos.php
+
+teste-saque.php
 
 :)
